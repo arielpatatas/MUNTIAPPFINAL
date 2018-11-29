@@ -1,9 +1,35 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>Register</ion-title>
+  <ion-toolbar color="main">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="Login"></ion-back-button>
+    </ion-buttons>
+    <ion-title text-center color="light">Register</ion-title>
   </ion-toolbar>
+
+ 
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+  <ion-img width="80" height="80" src="../assets/icon.png"></ion-img>
+  <ion-item>
+    <ion-label color="success" position="floating">Username</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label type="password" color="success" position="floating">Password</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label color="success" position="floating">E-mail</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <div class="spacer" style="height:20px;" id="login-spacer2"></div>
+  <p text-center>
+  <ion-button shape="round" color="success">Login</ion-button>
+</p>
+<p text-center>
+  Already a Member? <a href="#" style="color:#00A86B ">Sign in here!</a>
+</p>
+
 
 </ion-content>
