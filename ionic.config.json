@@ -1,0 +1,7 @@
+{
+  "name": "MUNTIAPPFINAL",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
